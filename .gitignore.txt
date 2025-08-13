@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+pip-wheel-metadata/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Deep Learning artifacts
+models/
+checkpoints/
+runs/
+logs/
+outputs/
+*.h5
+*.hdf5
+*.pkl
+*.pt
+*.pth
+*.onnx
+*.weights
+
+# Data files (exclude heavy datasets)
+data/
+datasets/
+*.csv
+*.tsv
+*.xlsx
+*.npz
+*.npy
+
+# IDE / OS
+.vscode/
+.idea/
+*.code-workspace
+Thumbs.db
+desktop.ini
+.DS_Store
